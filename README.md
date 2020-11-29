@@ -1,8 +1,8 @@
-#pslinq
+# pslinq
 
 LINQ for Powershell.
 
-##Available cmdlets
+## Available cmdlets
 
 The following cmdlets are available as of now:
 
@@ -41,7 +41,7 @@ Based on [MoreLinq](https://code.google.com/p/morelinq/wiki/OperatorsOverview):
 [TakeEvery-List](#takeevery-list)
 
 
-###Aggregate-List
+### Aggregate-List
 
 Examples:
 
@@ -65,7 +65,7 @@ String reverse:
 #gfedcba
 ```
 
-###All-List
+### All-List
 
 Examples:
 
@@ -74,7 +74,7 @@ Examples:
 #False
 ```
 
-###Any-List
+### Any-List
 
 Examples:
 
@@ -83,7 +83,7 @@ Examples:
 #True
 ```
 
-###Except-List
+### Except-List
 
 Examples:
 
@@ -97,7 +97,7 @@ Examples:
 #10
 ```
 
-###First-List
+### First-List
 
 Examples:
 
@@ -108,7 +108,7 @@ Examples:
 #Throws exception
 ```
 
-###Intersect-List
+### Intersect-List
 
 Example:
 
@@ -122,7 +122,7 @@ Example:
 #10
 ```
 
-###Repeat-List
+### Repeat-List
 
 Example:
 
@@ -136,7 +136,7 @@ Example:
 #3
 ```
 
-###SelectMany-List
+### SelectMany-List
 
 Example:
 
@@ -150,7 +150,7 @@ Example:
 #f
 ```
 
-###Single-List
+### Single-List
 
 Example:
 
@@ -163,7 +163,7 @@ Example:
 #Throws exception
 ```
 
-###Skip-List
+### Skip-List
 
 Example:
 
@@ -175,7 +175,7 @@ Example:
 #10
 ```
 
-###SkipWhile-List
+### SkipWhile-List
 
 Example:
 
@@ -185,7 +185,7 @@ Example:
 #10
 ```
 
-###Take-List
+### Take-List
 
 Example:
 
@@ -201,7 +201,7 @@ Example:
 #6
 ```
 
-###TakeWhile-List
+### TakeWhile-List
 
 Example:
 
@@ -212,7 +212,7 @@ Example:
 #3
 ```
 
-###Union-List
+### Union-List
 
 Example:
 
@@ -224,7 +224,7 @@ Example:
 #d
 ```
 
-###Zip-List
+### Zip-List
 
 Example:
 
@@ -240,9 +240,9 @@ Example:
 #ccc
 ```
 
-##Based on MoreLinq:
+## Based on MoreLinq:
 
-###TakeEvery-List
+### TakeEvery-List
 
 ```powershell
 1..10 | TakeEvery-List 2
